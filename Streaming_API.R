@@ -7,8 +7,8 @@ require(stringr)
 reqURL <- "https://api.twitter.com/oauth/request_token"
 accessURL <- "https://api.twitter.com/oauth/access_token"
 authURL <- "https://api.twitter.com/oauth/authorize"
-consumerKey <- "Consumer Key goes here"
-consumerSecret <- "Consumer Secret goes here" 
+consumerKey <- "API Key goes here"
+consumerSecret <- "API Secret Key goes here" 
 
 
 my_oauth <- OAuthFactory$new(consumerKey=consumerKey,
